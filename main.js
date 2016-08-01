@@ -116,7 +116,7 @@ function convert2() {
     degF = Math.round((temp * 1.8 + 32) * 100) / 100;
     return degF + ' Fahrenheit';
   } else {
-    degC = Math.round(((temp - 32) / 1.8) * 10) / 10;
+    degC = Math.round(((temp - 32) / 1.8) * 100) / 100;
     return degC + ' Celsius';
   }
 }
